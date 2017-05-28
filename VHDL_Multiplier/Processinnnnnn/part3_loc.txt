@@ -1,0 +1,164 @@
+To, Location
+
+a_in[0], PIN_B13	
+a_in[1], PIN_A13
+
+a_in[2], PIN_N1
+
+a_in[3], PIN_P1
+
+a_in[4], PIN_P2
+
+a_in[5], PIN_T7
+
+a_in[6], PIN_U3
+
+a_in[7], PIN_U4
+
+
+
+b_in[0], PIN_N25	
+b_in[1], PIN_N26
+
+b_in[2], PIN_P25
+
+b_in[3], PIN_AE14
+
+b_in[4], PIN_AF14
+
+b_in[5], PIN_AD13
+
+b_in[6], PIN_AC13
+
+b_in[7], PIN_C13
+
+
+
+
+
+reset, PIN_G26	
+clock, PIN_N23		
+
+Hex7_a, PIN_L3	
+Hex7_b, PIN_L2
+
+Hex7_c, PIN_L9
+
+Hex7_d, PIN_L6
+
+Hex7_e, PIN_L7
+
+Hex7_f, PIN_P9
+
+Hex7_g, PIN_N9
+
+
+
+Hex6_a, PIN_R2	
+
+Hex6_b, PIN_P4
+
+Hex6_c, PIN_P3
+
+Hex6_d, PIN_M2
+
+Hex6_e, PIN_M3
+
+Hex6_f, PIN_M5
+
+Hex6_g, PIN_M4
+
+
+
+Hex5_a, PIN_T2	
+Hex5_b, PIN_P6
+
+Hex5_c, PIN_P7
+
+Hex5_d, PIN_T9
+
+Hex5_e, PIN_R5
+
+Hex5_f, PIN_R4
+
+Hex5_g, PIN_R3
+
+
+
+Hex4_a, PIN_U9	
+
+Hex4_b, PIN_U1
+
+Hex4_c, PIN_U2
+
+Hex4_d, PIN_T4
+
+Hex4_e, PIN_R7
+
+Hex4_f, PIN_R6
+
+Hex4_g, PIN_T3
+
+
+
+Hex3_a, PIN_Y23	
+Hex3_b, PIN_AA25
+
+Hex3_c, PIN_AA26
+
+Hex3_d, PIN_Y26
+
+Hex3_e, PIN_Y25
+
+Hex3_f, PIN_U22
+
+Hex3_g, PIN_W24
+
+
+
+Hex2_a, PIN_AB23
+
+Hex2_b, PIN_V22
+
+Hex2_c, PIN_AC25
+
+Hex2_d, PIN_AC26
+
+Hex2_e, PIN_AB26
+
+Hex2_f, PIN_AB25
+
+Hex2_g, PIN_Y24
+
+
+
+Hex1_a, PIN_V20	
+
+Hex1_b, PIN_V21
+
+Hex1_c, PIN_W21
+
+Hex1_d, PIN_Y22
+
+Hex1_e, PIN_AA24
+
+Hex1_f, PIN_AA23
+
+Hex1_g, PIN_AB24
+
+
+
+Hex0_a, PIN_AF10	
+
+Hex0_b, PIN_AB12
+
+Hex0_c, PIN_AC12
+
+Hex0_d, PIN_AD11
+
+Hex0_e, PIN_AE11
+
+Hex0_f, PIN_V14
+
+Hex0_g, PIN_V13
+

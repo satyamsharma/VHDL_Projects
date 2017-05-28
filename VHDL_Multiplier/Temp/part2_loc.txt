@@ -1,0 +1,46 @@
+To, Location
+
+
+A[0], PIN_N25
+
+A[1], PIN_N26
+
+A[2], PIN_P25
+
+A[3], PIN_AE14
+
+A[4], PIN_AF14
+
+A[5], PIN_AD13
+
+A[6], PIN_AC13
+
+A[7], PIN_C13
+
+addsub, PIN_V2 
+
+
+
+
+reset_n, PIN_G26	
+clock, PIN_N23	
+
+
+
+Q[0], PIN_AE23	
+Q[1], PIN_AF23
+
+Q[2], PIN_AB21
+
+Q[3], PIN_AC22
+
+Q[4], PIN_AD22
+
+Q[5], PIN_AD23
+
+Q[6], PIN_AD21
+
+Q[7], PIN_AC21
+
+
+overflow, PIN_AA14	

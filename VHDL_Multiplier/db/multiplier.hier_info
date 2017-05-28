@@ -1,0 +1,1471 @@
+|reg_multiplier8
+Hex0_a <= dec_to_hex:inst1.segment_a
+clock => clockedmultiplier8:inst.clock
+reset => clockedmultiplier8:inst.reset
+a_in[0] => clockedmultiplier8:inst.A[0]
+a_in[0] => dec_to_hex:inst3.hex_digit[0]
+a_in[1] => clockedmultiplier8:inst.A[1]
+a_in[1] => dec_to_hex:inst3.hex_digit[1]
+a_in[2] => clockedmultiplier8:inst.A[2]
+a_in[2] => dec_to_hex:inst3.hex_digit[2]
+a_in[3] => clockedmultiplier8:inst.A[3]
+a_in[3] => dec_to_hex:inst3.hex_digit[3]
+a_in[4] => clockedmultiplier8:inst.A[4]
+a_in[4] => dec_to_hex:inst6.hex_digit[0]
+a_in[5] => clockedmultiplier8:inst.A[5]
+a_in[5] => dec_to_hex:inst6.hex_digit[1]
+a_in[6] => clockedmultiplier8:inst.A[6]
+a_in[6] => dec_to_hex:inst6.hex_digit[2]
+a_in[7] => clockedmultiplier8:inst.A[7]
+a_in[7] => dec_to_hex:inst6.hex_digit[3]
+b_in[0] => clockedmultiplier8:inst.B[0]
+b_in[0] => dec_to_hex:inst4.hex_digit[0]
+b_in[1] => clockedmultiplier8:inst.B[1]
+b_in[1] => dec_to_hex:inst4.hex_digit[1]
+b_in[2] => clockedmultiplier8:inst.B[2]
+b_in[2] => dec_to_hex:inst4.hex_digit[2]
+b_in[3] => clockedmultiplier8:inst.B[3]
+b_in[3] => dec_to_hex:inst4.hex_digit[3]
+b_in[4] => clockedmultiplier8:inst.B[4]
+b_in[4] => dec_to_hex:inst5.hex_digit[0]
+b_in[5] => clockedmultiplier8:inst.B[5]
+b_in[5] => dec_to_hex:inst5.hex_digit[1]
+b_in[6] => clockedmultiplier8:inst.B[6]
+b_in[6] => dec_to_hex:inst5.hex_digit[2]
+b_in[7] => clockedmultiplier8:inst.B[7]
+b_in[7] => dec_to_hex:inst5.hex_digit[3]
+Hex0_b <= dec_to_hex:inst1.segment_b
+Hex0_c <= dec_to_hex:inst1.segment_c
+Hex0_d <= dec_to_hex:inst1.segment_d
+Hex0_e <= dec_to_hex:inst1.segment_e
+Hex0_f <= dec_to_hex:inst1.segment_f
+Hex0_g <= dec_to_hex:inst1.segment_g
+Hex1_a <= dec_to_hex:inst2.segment_a
+Hex1_b <= dec_to_hex:inst2.segment_b
+Hex1_c <= dec_to_hex:inst2.segment_c
+Hex1_d <= dec_to_hex:inst2.segment_d
+Hex1_e <= dec_to_hex:inst2.segment_e
+Hex1_f <= dec_to_hex:inst2.segment_f
+Hex1_g <= dec_to_hex:inst2.segment_g
+Hex6_a <= dec_to_hex:inst3.segment_a
+Hex6_b <= dec_to_hex:inst3.segment_b
+Hex6_c <= dec_to_hex:inst3.segment_c
+Hex6_d <= dec_to_hex:inst3.segment_d
+Hex6_e <= dec_to_hex:inst3.segment_e
+Hex6_f <= dec_to_hex:inst3.segment_f
+Hex6_g <= dec_to_hex:inst3.segment_g
+Hex4_a <= dec_to_hex:inst4.segment_a
+Hex4_b <= dec_to_hex:inst4.segment_b
+Hex4_c <= dec_to_hex:inst4.segment_c
+Hex4_d <= dec_to_hex:inst4.segment_d
+Hex4_e <= dec_to_hex:inst4.segment_e
+Hex4_f <= dec_to_hex:inst4.segment_f
+Hex4_g <= dec_to_hex:inst4.segment_g
+Hex2_a <= dec_to_hex:inst7.segment_a
+Hex2_b <= dec_to_hex:inst7.segment_b
+Hex2_c <= dec_to_hex:inst7.segment_c
+Hex2_d <= dec_to_hex:inst7.segment_d
+Hex2_e <= dec_to_hex:inst7.segment_e
+Hex2_f <= dec_to_hex:inst7.segment_f
+Hex2_g <= dec_to_hex:inst7.segment_g
+Hex3_a <= dec_to_hex:inst8.segment_a
+Hex3_b <= dec_to_hex:inst8.segment_b
+Hex3_c <= dec_to_hex:inst8.segment_c
+Hex3_d <= dec_to_hex:inst8.segment_d
+Hex3_e <= dec_to_hex:inst8.segment_e
+Hex3_f <= dec_to_hex:inst8.segment_f
+Hex3_g <= dec_to_hex:inst8.segment_g
+Hex5_a <= dec_to_hex:inst5.segment_a
+Hex5_b <= dec_to_hex:inst5.segment_b
+Hex5_c <= dec_to_hex:inst5.segment_c
+Hex5_d <= dec_to_hex:inst5.segment_d
+Hex5_e <= dec_to_hex:inst5.segment_e
+Hex5_f <= dec_to_hex:inst5.segment_f
+Hex5_g <= dec_to_hex:inst5.segment_g
+Hex7_a <= dec_to_hex:inst6.segment_a
+Hex7_b <= dec_to_hex:inst6.segment_b
+Hex7_c <= dec_to_hex:inst6.segment_c
+Hex7_d <= dec_to_hex:inst6.segment_d
+Hex7_e <= dec_to_hex:inst6.segment_e
+Hex7_f <= dec_to_hex:inst6.segment_f
+Hex7_g <= dec_to_hex:inst6.segment_g
+output[0] <= p[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= p[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= p[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= p[3].DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= p[4].DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= p[5].DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= p[6].DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= p[7].DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= p[8].DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= p[9].DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= p[10].DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= p[11].DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= p[12].DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= p[13].DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= p[14].DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= p[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst1
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst
+clock => internalB[0].CLK
+clock => internalB[1].CLK
+clock => internalB[2].CLK
+clock => internalB[3].CLK
+clock => internalB[4].CLK
+clock => internalB[5].CLK
+clock => internalB[6].CLK
+clock => internalB[7].CLK
+clock => internalA[0].CLK
+clock => internalA[1].CLK
+clock => internalA[2].CLK
+clock => internalA[3].CLK
+clock => internalA[4].CLK
+clock => internalA[5].CLK
+clock => internalA[6].CLK
+clock => internalA[7].CLK
+clock => extout[0].CLK
+clock => extout[1].CLK
+clock => extout[2].CLK
+clock => extout[3].CLK
+clock => extout[4].CLK
+clock => extout[5].CLK
+clock => extout[6].CLK
+clock => extout[7].CLK
+clock => extout[8].CLK
+clock => extout[9].CLK
+clock => extout[10].CLK
+clock => extout[11].CLK
+clock => extout[12].CLK
+clock => extout[13].CLK
+clock => extout[14].CLK
+clock => extout[15].CLK
+A[0] => internalA[0].DATAIN
+A[1] => internalA[1].DATAIN
+A[2] => internalA[2].DATAIN
+A[3] => internalA[3].DATAIN
+A[4] => internalA[4].DATAIN
+A[5] => internalA[5].DATAIN
+A[6] => internalA[6].DATAIN
+A[7] => internalA[7].DATAIN
+B[0] => internalB[0].DATAIN
+B[1] => internalB[1].DATAIN
+B[2] => internalB[2].DATAIN
+B[3] => internalB[3].DATAIN
+B[4] => internalB[4].DATAIN
+B[5] => internalB[5].DATAIN
+B[6] => internalB[6].DATAIN
+B[7] => internalB[7].DATAIN
+reset => internalB[0].ACLR
+reset => internalB[1].ACLR
+reset => internalB[2].ACLR
+reset => internalB[3].ACLR
+reset => internalB[4].ACLR
+reset => internalB[5].ACLR
+reset => internalB[6].ACLR
+reset => internalB[7].ACLR
+reset => internalA[0].ACLR
+reset => internalA[1].ACLR
+reset => internalA[2].ACLR
+reset => internalA[3].ACLR
+reset => internalA[4].ACLR
+reset => internalA[5].ACLR
+reset => internalA[6].ACLR
+reset => internalA[7].ACLR
+reset => extout[0].ACLR
+reset => extout[1].ACLR
+reset => extout[2].ACLR
+reset => extout[3].ACLR
+reset => extout[4].ACLR
+reset => extout[5].ACLR
+reset => extout[6].ACLR
+reset => extout[7].ACLR
+reset => extout[8].ACLR
+reset => extout[9].ACLR
+reset => extout[10].ACLR
+reset => extout[11].ACLR
+reset => extout[12].ACLR
+reset => extout[13].ACLR
+reset => extout[14].ACLR
+reset => extout[15].ACLR
+Q[0] <= extout[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= extout[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= extout[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= extout[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= extout[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= extout[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= extout[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= extout[7].DB_MAX_OUTPUT_PORT_TYPE
+Q[8] <= extout[8].DB_MAX_OUTPUT_PORT_TYPE
+Q[9] <= extout[9].DB_MAX_OUTPUT_PORT_TYPE
+Q[10] <= extout[10].DB_MAX_OUTPUT_PORT_TYPE
+Q[11] <= extout[11].DB_MAX_OUTPUT_PORT_TYPE
+Q[12] <= extout[12].DB_MAX_OUTPUT_PORT_TYPE
+Q[13] <= extout[13].DB_MAX_OUTPUT_PORT_TYPE
+Q[14] <= extout[14].DB_MAX_OUTPUT_PORT_TYPE
+Q[15] <= extout[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply
+a_in[0] => andgate.IN0
+a_in[0] => andgate[8].IN0
+a_in[0] => andgate[16].IN0
+a_in[0] => andgate[24].IN0
+a_in[0] => andgate[32].IN0
+a_in[0] => andgate[40].IN0
+a_in[0] => andgate[48].IN0
+a_in[0] => andgate[56].IN0
+a_in[1] => andgate[1].IN0
+a_in[1] => andgate[9].IN0
+a_in[1] => andgate[17].IN0
+a_in[1] => andgate[25].IN0
+a_in[1] => andgate[33].IN0
+a_in[1] => andgate[41].IN0
+a_in[1] => andgate[49].IN0
+a_in[1] => andgate[57].IN0
+a_in[2] => andgate[2].IN0
+a_in[2] => andgate[10].IN0
+a_in[2] => andgate[18].IN0
+a_in[2] => andgate[26].IN0
+a_in[2] => andgate[34].IN0
+a_in[2] => andgate[42].IN0
+a_in[2] => andgate[50].IN0
+a_in[2] => andgate[58].IN0
+a_in[3] => andgate[3].IN0
+a_in[3] => andgate[11].IN0
+a_in[3] => andgate[19].IN0
+a_in[3] => andgate[27].IN0
+a_in[3] => andgate[35].IN0
+a_in[3] => andgate[43].IN0
+a_in[3] => andgate[51].IN0
+a_in[3] => andgate[59].IN0
+a_in[4] => andgate[4].IN0
+a_in[4] => andgate[12].IN0
+a_in[4] => andgate[20].IN0
+a_in[4] => andgate[28].IN0
+a_in[4] => andgate[36].IN0
+a_in[4] => andgate[44].IN0
+a_in[4] => andgate[52].IN0
+a_in[4] => andgate[60].IN0
+a_in[5] => andgate[5].IN0
+a_in[5] => andgate[13].IN0
+a_in[5] => andgate[21].IN0
+a_in[5] => andgate[29].IN0
+a_in[5] => andgate[37].IN0
+a_in[5] => andgate[45].IN0
+a_in[5] => andgate[53].IN0
+a_in[5] => andgate[61].IN0
+a_in[6] => andgate[6].IN0
+a_in[6] => andgate[14].IN0
+a_in[6] => andgate[22].IN0
+a_in[6] => andgate[30].IN0
+a_in[6] => andgate[38].IN0
+a_in[6] => andgate[46].IN0
+a_in[6] => andgate[54].IN0
+a_in[6] => andgate[62].IN0
+a_in[7] => andgate[7].IN0
+a_in[7] => andgate[15].IN0
+a_in[7] => andgate[23].IN0
+a_in[7] => andgate[31].IN0
+a_in[7] => andgate[39].IN0
+a_in[7] => andgate[47].IN0
+a_in[7] => andgate[55].IN0
+a_in[7] => andgate[63].IN0
+b_in[0] => andgate.IN1
+b_in[0] => andgate[1].IN1
+b_in[0] => andgate[2].IN1
+b_in[0] => andgate[3].IN1
+b_in[0] => andgate[4].IN1
+b_in[0] => andgate[5].IN1
+b_in[0] => andgate[6].IN1
+b_in[0] => andgate[7].IN1
+b_in[1] => andgate[8].IN1
+b_in[1] => andgate[9].IN1
+b_in[1] => andgate[10].IN1
+b_in[1] => andgate[11].IN1
+b_in[1] => andgate[12].IN1
+b_in[1] => andgate[13].IN1
+b_in[1] => andgate[14].IN1
+b_in[1] => andgate[15].IN1
+b_in[2] => andgate[16].IN1
+b_in[2] => andgate[17].IN1
+b_in[2] => andgate[18].IN1
+b_in[2] => andgate[19].IN1
+b_in[2] => andgate[20].IN1
+b_in[2] => andgate[21].IN1
+b_in[2] => andgate[22].IN1
+b_in[2] => andgate[23].IN1
+b_in[3] => andgate[24].IN1
+b_in[3] => andgate[25].IN1
+b_in[3] => andgate[26].IN1
+b_in[3] => andgate[27].IN1
+b_in[3] => andgate[28].IN1
+b_in[3] => andgate[29].IN1
+b_in[3] => andgate[30].IN1
+b_in[3] => andgate[31].IN1
+b_in[4] => andgate[32].IN1
+b_in[4] => andgate[33].IN1
+b_in[4] => andgate[34].IN1
+b_in[4] => andgate[35].IN1
+b_in[4] => andgate[36].IN1
+b_in[4] => andgate[37].IN1
+b_in[4] => andgate[38].IN1
+b_in[4] => andgate[39].IN1
+b_in[5] => andgate[40].IN1
+b_in[5] => andgate[41].IN1
+b_in[5] => andgate[42].IN1
+b_in[5] => andgate[43].IN1
+b_in[5] => andgate[44].IN1
+b_in[5] => andgate[45].IN1
+b_in[5] => andgate[46].IN1
+b_in[5] => andgate[47].IN1
+b_in[6] => andgate[48].IN1
+b_in[6] => andgate[49].IN1
+b_in[6] => andgate[50].IN1
+b_in[6] => andgate[51].IN1
+b_in[6] => andgate[52].IN1
+b_in[6] => andgate[53].IN1
+b_in[6] => andgate[54].IN1
+b_in[6] => andgate[55].IN1
+b_in[7] => andgate[56].IN1
+b_in[7] => andgate[57].IN1
+b_in[7] => andgate[58].IN1
+b_in[7] => andgate[59].IN1
+b_in[7] => andgate[60].IN1
+b_in[7] => andgate[61].IN1
+b_in[7] => andgate[62].IN1
+b_in[7] => andgate[63].IN1
+p[0] <= andgate.DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= rca8:rca80.sum[0]
+p[2] <= rca8:rca81.sum[0]
+p[3] <= rca8:rca82.sum[0]
+p[4] <= rca8:rca83.sum[0]
+p[5] <= rca8:rca84.sum[0]
+p[6] <= rca8:rca85.sum[0]
+p[7] <= rca8:rca86.sum[0]
+p[8] <= rca8:rca86.sum[1]
+p[9] <= rca8:rca86.sum[2]
+p[10] <= rca8:rca86.sum[3]
+p[11] <= rca8:rca86.sum[4]
+p[12] <= rca8:rca86.sum[5]
+p[13] <= rca8:rca86.sum[6]
+p[14] <= rca8:rca86.sum[7]
+p[15] <= rca8:rca86.cout
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80
+a[0] => fa:FA0.a
+a[1] => fa:FA1.a
+a[2] => fa:FA2.a
+a[3] => fa:FA3.a
+a[4] => fa:FA4.a
+a[5] => fa:FA5.a
+a[6] => fa:FA6.a
+a[7] => fa:FA7.a
+b[0] => fa:FA0.b
+b[1] => fa:FA1.b
+b[2] => fa:FA2.b
+b[3] => fa:FA3.b
+b[4] => fa:FA4.b
+b[5] => fa:FA5.b
+b[6] => fa:FA6.b
+b[7] => fa:FA7.b
+cout <= fa:FA7.cout
+sum[0] <= fa:FA0.sum
+sum[1] <= fa:FA1.sum
+sum[2] <= fa:FA2.sum
+sum[3] <= fa:FA3.sum
+sum[4] <= fa:FA4.sum
+sum[5] <= fa:FA5.sum
+sum[6] <= fa:FA6.sum
+sum[7] <= fa:FA7.sum
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA5
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA6
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca80|fa:FA7
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81
+a[0] => fa:FA0.a
+a[1] => fa:FA1.a
+a[2] => fa:FA2.a
+a[3] => fa:FA3.a
+a[4] => fa:FA4.a
+a[5] => fa:FA5.a
+a[6] => fa:FA6.a
+a[7] => fa:FA7.a
+b[0] => fa:FA0.b
+b[1] => fa:FA1.b
+b[2] => fa:FA2.b
+b[3] => fa:FA3.b
+b[4] => fa:FA4.b
+b[5] => fa:FA5.b
+b[6] => fa:FA6.b
+b[7] => fa:FA7.b
+cout <= fa:FA7.cout
+sum[0] <= fa:FA0.sum
+sum[1] <= fa:FA1.sum
+sum[2] <= fa:FA2.sum
+sum[3] <= fa:FA3.sum
+sum[4] <= fa:FA4.sum
+sum[5] <= fa:FA5.sum
+sum[6] <= fa:FA6.sum
+sum[7] <= fa:FA7.sum
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA5
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA6
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca81|fa:FA7
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82
+a[0] => fa:FA0.a
+a[1] => fa:FA1.a
+a[2] => fa:FA2.a
+a[3] => fa:FA3.a
+a[4] => fa:FA4.a
+a[5] => fa:FA5.a
+a[6] => fa:FA6.a
+a[7] => fa:FA7.a
+b[0] => fa:FA0.b
+b[1] => fa:FA1.b
+b[2] => fa:FA2.b
+b[3] => fa:FA3.b
+b[4] => fa:FA4.b
+b[5] => fa:FA5.b
+b[6] => fa:FA6.b
+b[7] => fa:FA7.b
+cout <= fa:FA7.cout
+sum[0] <= fa:FA0.sum
+sum[1] <= fa:FA1.sum
+sum[2] <= fa:FA2.sum
+sum[3] <= fa:FA3.sum
+sum[4] <= fa:FA4.sum
+sum[5] <= fa:FA5.sum
+sum[6] <= fa:FA6.sum
+sum[7] <= fa:FA7.sum
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA5
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA6
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca82|fa:FA7
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83
+a[0] => fa:FA0.a
+a[1] => fa:FA1.a
+a[2] => fa:FA2.a
+a[3] => fa:FA3.a
+a[4] => fa:FA4.a
+a[5] => fa:FA5.a
+a[6] => fa:FA6.a
+a[7] => fa:FA7.a
+b[0] => fa:FA0.b
+b[1] => fa:FA1.b
+b[2] => fa:FA2.b
+b[3] => fa:FA3.b
+b[4] => fa:FA4.b
+b[5] => fa:FA5.b
+b[6] => fa:FA6.b
+b[7] => fa:FA7.b
+cout <= fa:FA7.cout
+sum[0] <= fa:FA0.sum
+sum[1] <= fa:FA1.sum
+sum[2] <= fa:FA2.sum
+sum[3] <= fa:FA3.sum
+sum[4] <= fa:FA4.sum
+sum[5] <= fa:FA5.sum
+sum[6] <= fa:FA6.sum
+sum[7] <= fa:FA7.sum
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA5
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA6
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca83|fa:FA7
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84
+a[0] => fa:FA0.a
+a[1] => fa:FA1.a
+a[2] => fa:FA2.a
+a[3] => fa:FA3.a
+a[4] => fa:FA4.a
+a[5] => fa:FA5.a
+a[6] => fa:FA6.a
+a[7] => fa:FA7.a
+b[0] => fa:FA0.b
+b[1] => fa:FA1.b
+b[2] => fa:FA2.b
+b[3] => fa:FA3.b
+b[4] => fa:FA4.b
+b[5] => fa:FA5.b
+b[6] => fa:FA6.b
+b[7] => fa:FA7.b
+cout <= fa:FA7.cout
+sum[0] <= fa:FA0.sum
+sum[1] <= fa:FA1.sum
+sum[2] <= fa:FA2.sum
+sum[3] <= fa:FA3.sum
+sum[4] <= fa:FA4.sum
+sum[5] <= fa:FA5.sum
+sum[6] <= fa:FA6.sum
+sum[7] <= fa:FA7.sum
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA5
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA6
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca84|fa:FA7
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85
+a[0] => fa:FA0.a
+a[1] => fa:FA1.a
+a[2] => fa:FA2.a
+a[3] => fa:FA3.a
+a[4] => fa:FA4.a
+a[5] => fa:FA5.a
+a[6] => fa:FA6.a
+a[7] => fa:FA7.a
+b[0] => fa:FA0.b
+b[1] => fa:FA1.b
+b[2] => fa:FA2.b
+b[3] => fa:FA3.b
+b[4] => fa:FA4.b
+b[5] => fa:FA5.b
+b[6] => fa:FA6.b
+b[7] => fa:FA7.b
+cout <= fa:FA7.cout
+sum[0] <= fa:FA0.sum
+sum[1] <= fa:FA1.sum
+sum[2] <= fa:FA2.sum
+sum[3] <= fa:FA3.sum
+sum[4] <= fa:FA4.sum
+sum[5] <= fa:FA5.sum
+sum[6] <= fa:FA6.sum
+sum[7] <= fa:FA7.sum
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA5
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA6
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca85|fa:FA7
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86
+a[0] => fa:FA0.a
+a[1] => fa:FA1.a
+a[2] => fa:FA2.a
+a[3] => fa:FA3.a
+a[4] => fa:FA4.a
+a[5] => fa:FA5.a
+a[6] => fa:FA6.a
+a[7] => fa:FA7.a
+b[0] => fa:FA0.b
+b[1] => fa:FA1.b
+b[2] => fa:FA2.b
+b[3] => fa:FA3.b
+b[4] => fa:FA4.b
+b[5] => fa:FA5.b
+b[6] => fa:FA6.b
+b[7] => fa:FA7.b
+cout <= fa:FA7.cout
+sum[0] <= fa:FA0.sum
+sum[1] <= fa:FA1.sum
+sum[2] <= fa:FA2.sum
+sum[3] <= fa:FA3.sum
+sum[4] <= fa:FA4.sum
+sum[5] <= fa:FA5.sum
+sum[6] <= fa:FA6.sum
+sum[7] <= fa:FA7.sum
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA0
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA1
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA2
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA3
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA4
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA5
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA6
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|clockedmultiplier8:inst|multiplier8:Multiply|rca8:rca86|fa:FA7
+a => cout.IN0
+a => cout.IN0
+b => cout.IN1
+b => cout.IN1
+cin => cout.IN1
+cin => sum.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst2
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst3
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst4
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst7
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst8
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst5
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg_multiplier8|dec_to_hex:inst6
+hex_digit[0] => Mux0.IN19
+hex_digit[0] => Mux1.IN19
+hex_digit[0] => Mux2.IN19
+hex_digit[0] => Mux3.IN19
+hex_digit[0] => Mux4.IN19
+hex_digit[0] => Mux5.IN19
+hex_digit[0] => Mux6.IN19
+hex_digit[1] => Mux0.IN18
+hex_digit[1] => Mux1.IN18
+hex_digit[1] => Mux2.IN18
+hex_digit[1] => Mux3.IN18
+hex_digit[1] => Mux4.IN18
+hex_digit[1] => Mux5.IN18
+hex_digit[1] => Mux6.IN18
+hex_digit[2] => Mux0.IN17
+hex_digit[2] => Mux1.IN17
+hex_digit[2] => Mux2.IN17
+hex_digit[2] => Mux3.IN17
+hex_digit[2] => Mux4.IN17
+hex_digit[2] => Mux5.IN17
+hex_digit[2] => Mux6.IN17
+hex_digit[3] => Mux0.IN16
+hex_digit[3] => Mux1.IN16
+hex_digit[3] => Mux2.IN16
+hex_digit[3] => Mux3.IN16
+hex_digit[3] => Mux4.IN16
+hex_digit[3] => Mux5.IN16
+hex_digit[3] => Mux6.IN16
+segment_a <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+segment_b <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+segment_c <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+segment_d <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+segment_e <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+segment_f <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+segment_g <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+
+

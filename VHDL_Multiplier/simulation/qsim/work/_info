@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Haider\Google Drive\My Coursework\City College\Computer Organization Lab CSC 34300\Lab 7\Quartus Multiplier\simulation\qsim
+vmultiplier
+Z1 I_f1[QRZ14iS8n<JXoX1Vh3
+Z2 VL@Nja_QWjkX8@g^5@[[m_3
+Z3 dC:\Users\Haider\Google Drive\My Coursework\City College\Computer Organization Lab CSC 34300\Lab 7\Quartus Multiplier\simulation\qsim
+Z4 w1477794558
+Z5 8multiplier.vo
+Z6 Fmultiplier.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 oThKGL0LIoX6Zz3G75X2@0
+Z10 !s108 1477794559.030000
+Z11 !s107 multiplier.vo|
+Z12 !s90 -work|work|multiplier.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vmultiplier_vlg_sample_tst
+Z13 I4:YeL=gM;lZ9nWe^J;BNa1
+Z14 VgfQO;GE02YTzVLMRFG^JW0
+R3
+Z15 w1477794557
+Z16 8multiplier.vt
+Z17 Fmultiplier.vt
+L0 29
+R7
+r1
+31
+R8
+Z18 !s100 9E4zhcQ?1=[>SR3Ei2iDg0
+Z19 !s108 1477794559.101000
+Z20 !s107 multiplier.vt|
+Z21 !s90 -work|work|multiplier.vt|
+!i10b 1
+!s85 0
+!s101 -O0
+vnultiplier8
+Z22 !s100 z>6D^]8aEJ5k_bQ;noNh41
+Z23 I7DF9Q?jWm]mz@SE9A2?mK1
+Z24 VAW6c]^9Wz>l_NYjXDb>KY3
+R3
+Z25 w1477804502
+R5
+R6
+L0 31
+R7
+r1
+31
+R12
+R8
+!i10b 1
+!s85 0
+Z26 !s108 1477804503.352000
+R11
+!s101 -O0
+vnultiplier8_vlg_sample_tst
+!i10b 1
+Z27 !s100 1[Li5GbLDFXTi_h4lZ<5]3
+Z28 IlGYaCf^n3h`@VBQ8L5?];0
+Z29 Vz9M0oXzm;Bj2hTAH>V`QA1
+R3
+R25
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+!s108 1477804503.432000
+!s107 multiplier.vt|
+R21
+!s101 -O0
+R8
